@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+    
+    .features {
+        display: none;
+    }
+
+    .engagement {
+        display: none;
+    }
+
+    .header-nav {
+        width: 70%;
+
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .nav-list {
+        margin-left: 0px;
+        width: 55%;
+        gap: 20px;
+    }
+
+    .nav-list-item {
+        margin-left: 0px;
+    }
+
+    .header-contacts {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .header-contacts-item {
+        margin: 5px 0;
+    }
+
+    .banner {
+        height: 400px;
+        background: center url(../images/tablet-banner-img.png), rgba(47, 48, 58, 0.4);
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content h1 {
+        font-size: 26px;
+        line-height: 42px; /* 161.538% */
+        letter-spacing: 1.56px;
+
+        max-width: 360px;
+    }
+
+    .banner-content-button {
+        padding: 10px 24px;
+    }
+
+    .features-tablet {
+        display: block;
+
+        max-width: 1200px;
+        margin: 60px auto;
+        padding: 0 15px;
+    }
+
+    .features-list {
+        flex-direction: column;
+    }
+
+    .features-list-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        max-width: none;
+        width: 100%;
+    }
+
+    .features-list-logo_wrapper {
+        width: 50%;
+        max-width: 354px;
+    }
+}
